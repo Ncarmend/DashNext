@@ -2,7 +2,7 @@ import React from 'react';
 //import { useTable } from 'react-table';
 import Link from 'next/link';
 
-const Table = () => {
+const TableF = () => {
   const data = [
     { id: 1, date:'d', invoice: 'Ok',credit:"rising",wallet:'rising', transaction:'rising',  status:'rising'},
     { id: 2, date:'d', invoice: 'Ok',credit:"rising",wallet:'rising', transaction:'rising',  status:'rising'},
@@ -19,6 +19,7 @@ const Table = () => {
 
   return (
     <div className="overflow-x-auto">
+        <h1 className="text-3xl text-black font-semibold">Finances</h1>
       <table className="min-w-full bg-white border border-gray-200">
         <thead>
           <tr>
@@ -49,4 +50,4 @@ const Table = () => {
   );
 };
 
-export default Table;
+export default TableF;

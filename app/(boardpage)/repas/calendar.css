@@ -1,0 +1,60 @@
+/* repa calendar.css */
+.customCalendar {
+    border: 2px solid #2c77e0;
+    border-radius: 20px;
+    padding: 60px;
+  }
+  
+  .customCalendar .react-calendar__tile {
+    
+    border-radius: 2%;
+   color:rgb(101, 143, 143);
+    background-color: #95b2db;
+  }
+  
+  .customCalendar .react-calendar__tile:enabled:hover {
+    background-color: #3a9cd5;
+  }
+  
+  .customCalendar .react-calendar__tile--active {
+    background-color: #2c77e0;
+    color: rgb(36, 205, 223);
+  }
+
+  .customCalendar .react-calendar__month-view__days {
+    display: grid !important;
+    grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%; 
+}
+
+
+button {
+  margin: 3px;
+  background-color: #14a614;
+  border: 0;
+  border-radius: 3px;
+  color: rgb(58, 61, 224);
+  padding: 5px 0;
+
+  &:hover {
+    background-color: #1fd41f;
+  }
+
+  &:active {
+    background-color: #026002;
+  }
+}
+;
+
+
+.react-calendar__navigation {
+  display: flex;
+
+  .react-calendar__navigation__label {
+    font-weight: bold;
+  }
+
+  .react-calendar__navigation__arrow {
+    flex-grow: 0.333;
+  }
+}
+;
