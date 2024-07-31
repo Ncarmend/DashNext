@@ -36,7 +36,9 @@ export default function Sidnav({ children } : { children: React.ReactNode }) {
                     </Link>
                     </li>
                    <li className="
-                     border-b p-2 border-slate-500">Photos</li>
+                     border-b p-2 border-slate-500"><Link href="/photo"> Photos
+                    </Link>
+                  </li>
                    
                     <li className="
                      border-b p-2 border-slate-500">Absence/Retard</li>

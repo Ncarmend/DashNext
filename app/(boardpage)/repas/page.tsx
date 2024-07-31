@@ -30,14 +30,14 @@ const Meals = () => {
         <div className="w-full flex-none md:w-64  min-h-screen ">
           <Sidnav />
         </div>
-        <div className="flex-grow flex-col p-6    md:overflow-y-auto md:p-12">
+        <div className=" min-w-full  flex-grow flex-col p-6    md:overflow-y-auto md:p-12">
         <div>
                             <h1>MEALS</h1>
                             <h2> Meals Reservation Calendar
                         </h2>
                         </div>
                         
-    <div className="customCalendar">
+    <div className="customCalendar  min-w-full">
       <Calendar
         onChange={onChange}
         value={date}
